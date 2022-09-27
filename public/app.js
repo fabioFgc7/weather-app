@@ -33,8 +33,7 @@ const options = {
         temp.innerHTML = `${temp_c}°C`;
         wind.innerHTML = ` wind: ${wind_kph}km/h`;
         humidit.innerHTML = `${humidity}%`;
-        localTime.innerHTML = `Local Time: ${localtime}`;
-        updated.innerHTML = `Last updated: ${last_updated}`;
+    
         document.body.style.backgroundImage = url(`https://source.unsplash.com/1600x900/? ${name}
         `);
         
