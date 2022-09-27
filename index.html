@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./public/css/style.css">
+    <!-- Icon -->
+    <link rel="shortcut icon" href="./public/img/cloudy (1).png" type="image/x-icon">
+   
+</head>
+
+<body class="flex justify-center items-center bg-gray-900 w-full ">
+    <div class="bg-slate-700 md:mt-20 pb-5 mt-10 md:pt-5 md:pl-10 md:pr-10 rounded-3xl w-auto grid place-content-center   ">
+        <h1 class="text-center font-bold text-white text-3xl mb-5">Your weather app</h1>
+        <div class="text-center p-3 ">
+            <input type="text" class="text-left rounded-md p-2 outline-blue-900 border-spacing-2 w-full " name=""
+                id="texto" aria-describedby="helpId " autocomplete="off" autofocus placeholder="country or city">
+            <button class="btnSearch w-full mt-2 bg-gradient-to-br bg-oscuro-blue  px-2 py-2 rounded-md hover:bg-blue-800 text-gray-300">
+                <i class="fas fa-search-location"></i></button>
+        </div>
+        <div>
+            <div class="bg-oscuro-blue text-gray-300 rounded-md text-black-100 w-full px-5 py-1 pb-0 ">
+                <h1 class="country text-left ml-4 mt-2 font-bold"></h1>
+                <img class="img ml-4 " alt="">
+                <p class="text ml-5 font-semibold"></p>
+                <div class=" ml-4 font-serif">
+                    <div class=" flex mt-3  font-mono space-x-5">
+                        <h3 class="temp "></h3>
+                        <h3 class="humidity "></h3>
+                    </div>
+                    <div class="">
+                        <h3 class="wind  font-mono"></h3>
+                    <h3 class="name"></h3>
+                    </div>
+                    
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./public/app.js"></script>
+</body>
+
+</html>
+</body>
+
+</html>
